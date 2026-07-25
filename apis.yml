@@ -1,7 +1,29 @@
 aid: curegenetics
-name: curegenetics
-description: curegenetics is a company surfaced as a portfolio company of qiming and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/curegenetics.png
+name: Cure Genetics
+description: >-
+  Cure Genetics (克睿基因) is a clinical-stage biotechnology company founded in 2016 and
+  based in Suzhou, Jiangsu, China, developing cell and gene therapies for solid tumors
+  and genetic diseases. Its differentiated pipeline is built on two proprietary platforms:
+  AIMS CAR-NKT, a cell-therapy approach engineered to improve solid-tumor infiltration and
+  modulate the tumor microenvironment, and VELP, an AAV (adeno-associated viral) vector
+  technology targeting the nervous system, heart, and kidneys. Lead programs include CGC729,
+  an anti-CD70 CAR-NKT therapy in Phase I trials for renal cell carcinoma, and CGC-602, a
+  PD-1-IL-2v bispecific molecule for cancer immunotherapy. The company is backed by Qiming
+  Venture Partners, Advantech Capital, and Oriza Holdings. It publishes no public API,
+  developer platform, or technical documentation; this profile is maintained in the API
+  Evangelist network as a company record surfaced from the Qiming portfolio.
 url: https://raw.githubusercontent.com/api-evangelist/curegenetics/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +33,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Biotechnology
+- Gene Therapy
+- Cell Therapy
+- Oncology
+- Genetic Disease
+- Life Sciences
+- China
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -21,5 +50,16 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/curegenetics-domain-security.yml
 - type: Website
   url: https://curegenetics.com
+- type: Blog
+  url: https://curegenetics.com/gsxw.html
+- type: Support
+  url: https://curegenetics.com/lianxifangshi.html
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
